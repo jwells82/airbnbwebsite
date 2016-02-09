@@ -1,0 +1,156 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+    /*background-image: url('https://goo.gl/ODpi3y');
+    */
+    background-image: url('https://scdn3.thomascook.com/crop?imageUrl=http://magnolia.production.thomascook.io/wcms/dam/tcuk/city-breaks/venice/1venicehero1.jpg&maxWidth=1200&maxHeight=0');
+    height: 500px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-bottom: 23px;
+/*  border: 3px solid #cc0000;
+  margin-top: 10px;
+  /*margin-left: 23px;*/
+  margin-right: auto;
+  margin-left: auto;
+  color:#fff;
+  /*margin-right:auto html element goes to far left of screen margin-left:auto; goes to far right margin-right:auto and margin-left:auto centers element*/
+ /* border: 3px solid #fff;*/
+
+
+
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2{
+    color:#393c3d;
+    font-size: 24px;
+}
+.neighborhood-guides p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.learn-more {
+  /*background-color: #f7f7f7;*/
+  background-color: #669999;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+/*  color: #00b0ff;*/
+/*color:#007fff;*/
+color:#0072e6;
+}
+/*The position property is used to move an HTML element to a precise position on the page.
+
+By setting position: relative, you can use the CSS properties top, left, bottom, and right to shift an element away from where it would have normally appeared on the page.*/
+
+/*The float property moves an element to the far left or far right of the page.
+
+For example, setting float: right pulls an element to the far right side of the page, and the surrounding text wraps around it.*/
+
+/*The clear property turns off the float*/
+
+/*The CSS properties display, position, and float can be used to control where an element sits on the page.*/
+
+/*BOOTSTRAP
+http://getbootstrap.com/
+The CSS properties display, position, and float can be used to control where an element sits on the page.Bootstrap is a collection of prewritten CSS rules used to build web pages faster. Bootstrap provides styles out of the box for several common components on a web page, such as grid layouts, navigation, showcases, and much more.
+
+The grid
+A grid is a useful way to create page layouts. Rather than create layouts from scratch, HTML elements can be aligned to a grid in different ways to create custom layouts.
+
+Bootstrap comes with a grid that is made up of 12 equal-sized columns. HTML elements are arranged to span different numbers of columns in order to create custom page layouts.*/
+
+/*<div class="row">
+
+  <div class="col-md-6">
+    <h4>Content 1</h4>
+  </div>
+
+  <div class="col-md-6">
+    <h4>Content 2</h4>
+  </div>
+Both columns are wrapped in a .row class to create a horizontal group.
+
+TABS
+<ul class=" nav nav-tabs">
+  <li><a href="#">Primary</a></li>
+  <li class="active"><a href="#">Social</a></li>
+  <li><a href="#">Promotions</a></li>
+  <li><a href="#">Updates</a></li>
+</ul>
+The open tab is specified by the class active
+
+PILLS
+<ul class="nav nav-pills">
+  <li><a href="#">Primary</a></li>
+  <li class="active"><a href="#">Social</a></li>
+  <li><a href="#">Promotions</a></li>
+  <li><a href="#">Updates</a></li>
+</ul>
+Pills are a set of buttons that give links to different parts of a site. Pills are seen in sites like Google's search results page.
+
+JUMBOTRON
+<div class="jumbotron">
+  <h1>Find a place to stay.</h1>
+  <p>Rent from people in over 34,000 cities and 192 countries.</p>
+</div>
+Many sites have a large showcase area featuring important content. Showcases are seen on sites like Google Mobile and Apple.
+
+Bootstrap calls this large showcase a jumbotron. A jumbotron is used to call extra attention to important content on the site. Let's see how to use it.
+
+Summary
+By adding Bootstrap classes to your HTML elements, you can make use of Bootstrap's CSS to build your page faster. This lets you quickly set up the basic styles and layout so that you can get to the more interesting aspects of your page's design.
+
+Bootstrap provides CSS for many more web components. Check out this site to see how else you can use Bootstrap to style your HTML elements!
+
+GRID
+Using Bootstrap's grid, you arranged the three pieces of supporting content into a three-column layout.
+
+Let's use Bootstrap's grid again to create another section on the page. This section will contain a grid of images.
+
+Thumbnail
+Extend Bootstrap's grid system with the thumbnail component to easily display grids of images, videos, text, and more.
+Bootstrap provides the ".thumbnail" class to easily display grids of images.
+http://getbootstrap.com/components/#thumbnails
+
+<div class="thumbnail">
+  <img src="..." >
+</div>
+An img element is wrapped in a div element with the class "thumbnail".
+
+If you're looking for Pinterest-like presentation of thumbnails of varying heights and/or widths, you'll need to use a third-party plugin such as Masonry, Isotope, or Salvattore.
+*/
